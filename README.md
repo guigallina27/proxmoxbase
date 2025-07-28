@@ -23,13 +23,13 @@ O conhecimento está organizado em diretórios temáticos para facilitar a naveg
 
 Sinta-se à vontade para explorar os diretórios e encontrar a solução que você precisa.
 
-> ## 🤝 Como Contribuir
->
-> Sua contribuição é muito bem-vinda! Para garantir a qualidade e a organização do conteúdo, seguimos o fluxo padrão de contribuição do GitHub.
->
-> 1.  **Faça um Fork** deste repositório para a sua conta.
-> 2.  **Crie uma nova Branch** na sua cópia para organizar sua contribuição (ex: `feature/adiciona-guia-zfs`).
-> 3.  **Adicione seu conteúdo** em um arquivo Markdown (`.md`) dentro do diretório apropriado.
-> 4.  **Abra um Pull Request** (PR) do seu fork para o repositório principal.
->
-> Após o envio, seu Pull Request será revisado e, se aprovado, integrado ao projeto.
+## 🤝 Como Contribuir
+
+ Sua contribuição é muito bem-vinda! Para garantir a qualidade e a organização do conteúdo, seguimos o fluxo padrão de contribuição do GitHub.
+
+1.  **Faça um Fork** deste repositório para a sua conta.
+2.  **Crie uma nova Branch** na sua cópia para organizar sua contribuição (ex: `feature/adiciona-guia-zfs`).
+3.  **Adicione seu conteúdo** em um arquivo Markdown (`.md`) dentro do diretório apropriado.
+4.  **Abra um Pull Request** (PR) do seu fork para o repositório principal.
+
+Após o envio, seu Pull Request será revisado e, se aprovado, integrado ao projeto.
