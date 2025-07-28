@@ -1,4 +1,4 @@
-### Guia Genérico e Completo para Configurar o Hostname no Proxmox
+### Configurar o Hostname no Proxmox ###
 
 Este guia utiliza os seguintes valores como exemplo:
 *   **IP do Servidor:** `1.2.3.4`
