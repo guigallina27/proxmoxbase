@@ -1,4 +1,4 @@
-### Guia para Configurar o Hostname no Proxmox
+### Guia Genérico e Completo para Configurar o Hostname no Proxmox
 
 Este guia utiliza os seguintes valores como exemplo:
 *   **IP do Servidor:** `1.2.3.4`
@@ -88,9 +88,22 @@ O Proxmox cria um diretório de configuração com o nome do nó. Se você alter
 
 ---
 
-#### **4. Aplicar as Alterações**
+#### **4. Reiniciar os Serviços do Proxmox (Aplicação Rápida)**
 
-A reinicialização completa é a forma mais segura de garantir que todos os serviços (Proxmox, rede, etc.) sejam carregados com a nova configuração de nome.
+Para que as alterações tenham efeito imediato na interface web e nos serviços do Proxmox, reinicie-os. Isso permite uma verificação rápida sem a necessidade de um reboot completo.
+
+Execute os seguintes comandos, um de cada vez:
+```bash
+systemctl restart pveproxy
+systemctl restart pvedaemon
+```
+Após executar os comandos, atualize a página da interface web do Proxmox no seu navegador para ver se as alterações foram aplicadas corretamente.
+
+---
+
+#### **5. Reinicialização Completa (Aplicação Final)**
+
+Embora a reinicialização dos serviços geralmente seja suficiente, um reboot completo garante que absolutamente todos os componentes do sistema operacional e do Proxmox reconheçam o novo hostname. Esta é a forma mais segura de finalizar o processo.
 
 ```bash
 reboot
