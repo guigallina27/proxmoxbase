@@ -66,7 +66,10 @@ Este arquivo é crucial para que o servidor consiga resolver o próprio nome par
 
 ---
 
+
 #### **3. Sincronizar a Configuração do Proxmox**
+
+> **Adendo:** Este passo é necessário **apenas se você estiver alterando um hostname existente**. Se o nome do diretório listado pelo comando `ls` já for igual ao `<nome-curto-novo>` que você definiu, **não é preciso fazer nada** e você pode pular esta etapa.
 
 O Proxmox cria um diretório de configuração com o nome do nó. Se você alterou o hostname nos passos anteriores, este diretório também precisa ser renomeado para corresponder ao novo nome.
 
@@ -83,8 +86,6 @@ O Proxmox cria um diretório de configuração com o nome do nó. Se você alter
     ```bash
     mv pve-antigo pvenode
     ```
-
-> **Adendo:** Este passo é necessário **apenas se você estiver alterando um hostname existente**. Se o nome do diretório listado pelo comando `ls` já for igual ao `<nome-curto-novo>` que você definiu, **não é preciso fazer nada** e você pode pular esta etapa.
 
 ---
 
