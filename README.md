@@ -23,15 +23,13 @@ O conhecimento está organizado em diretórios temáticos para facilitar a naveg
 
 Sinta-se à vontade para explorar os diretórios e encontrar a solução que você precisa.
 
-## 🤝 Como Contribuir
-
-Este é um projeto colaborativo e sua contribuição é muito valiosa! Se você possui um guia, um script útil ou a solução para um problema que ainda não foi documentado, considere compartilhar com a comunidade.
-
-Para contribuir, por favor, siga estes passos:
-
-1.  **Fork** este repositório.
-2.  Crie uma **Branch** para a sua nova contribuição.
-3.  Adicione seu conteúdo em um arquivo Markdown (`.md`) dentro do diretório apropriado.
-4.  Abra um **Pull Request** com uma descrição clara do que você está adicionando.
-
-Juntos, podemos construir uma base de conhecimento cada vez mais rica e útil para todos os usuários de Proxmox
+> ## 🤝 Como Contribuir
+>
+> Sua contribuição é muito bem-vinda! Para garantir a qualidade e a organização do conteúdo, seguimos o fluxo padrão de contribuição do GitHub.
+>
+> 1.  **Faça um Fork** deste repositório para a sua conta.
+> 2.  **Crie uma nova Branch** na sua cópia para organizar sua contribuição (ex: `feature/adiciona-guia-zfs`).
+> 3.  **Adicione seu conteúdo** em um arquivo Markdown (`.md`) dentro do diretório apropriado.
+> 4.  **Abra um Pull Request** (PR) do seu fork para o repositório principal.
+>
+> Após o envio, seu Pull Request será revisado e, se aprovado, integrado ao projeto.
